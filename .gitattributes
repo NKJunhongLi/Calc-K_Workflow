@@ -1,0 +1,5 @@
+# The bundled INPUT template is tested byte for byte.
+/INPUT-template -text
+
+# Slurm scripts execute on Linux.
+*.slurm text eol=lf

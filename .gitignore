@@ -1,0 +1,14 @@
+# Local environments and Python caches
+.venv/
+__pycache__/
+*.py[cod]
+.cache/
+.pytest_cache/
+.idea/
+.env
+
+# Generated test artifacts and workflow outputs
+.test-artifacts/
+.tmp/
+/work/
+/runtime/

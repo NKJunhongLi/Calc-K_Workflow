@@ -1,0 +1,25 @@
+INPUT_PARAMETERS
+suffix         ABACUS
+nspin          1
+symmetry       1
+esolver_type   ksdft
+ks_solver      genelpa
+
+ecutwfc        100
+scf_thr        1e-7
+scf_nmax       100
+relax_nmax     500
+relax_method   cg
+force_thr_ev   0.001
+stress_thr     0.5
+basis_type     lcao
+calculation    cell-relax
+chg_extrap     second-order
+dft_functional PBESOL
+
+kspacing       0.1
+
+smearing_method gaussian
+smearing_sigma  0.010
+
+mixing_beta     0.5
